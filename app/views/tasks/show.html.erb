@@ -5,3 +5,7 @@
 <p><strong>Details: </strong><%= @task.details %></p>
 
 <p><strong>Completed: </strong><%= @task.completed %></p>
+
+<div><i class="fa-solid fa-square-check"></i></div>
+
+<%= link_to 'Edit', edit_task_path(@task) %>
